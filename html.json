@@ -1,0 +1,36 @@
+
+	{
+		"Basic HTML Header": {
+			"prefix": "htmlheader",
+			"body": [
+				"<header>",
+				"   <nav>",
+				"      <a href=\"${1:#}\">${2|Logo,Brand Name|}</a>",
+				"      <ul>",
+				"         <li><a href=\"#\">Home</a></li>",
+				"         <li><a href=\"#\">About</a></li>",
+				"         <li><a href=\"#\">Contact</a></li>",
+				"      </ul>",
+				"   </nav>",
+				"</header>"
+			],
+			"description": "Estructura básica de un Header con logo y menú de navegación"
+		},
+	
+		"Google Bot Meta": {
+			"prefix": "metagoogle",
+			"body": [
+				"<meta name=\"description\" content=\"$1\">",
+				"<meta name=\"keywords\" content=\"$2\">",
+				"<meta name=\"author\" content=\"${3:Your Name}\">",
+				"<meta name=\"robots\" content=\"${3|index,follow,noindex,nofollow|}\">",
+				"<meta name=\"googlebot\" content=\"${4|index,follow,noindex,nofollow|}\">"
+			],
+			"description": "Metadatos básicos para Google Bot en el Header"
+		}
+	}
+	
+	
+	 
+	 
+	 
